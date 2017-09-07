@@ -1,13 +1,7 @@
-const babelLoader = function(conf) {
-  if (!conf.loader) return false;
-  return conf.loader.indexOf('babel-loader') > -1;
-};
+const { injectBabelPlugin } = require('react-app-rewired');
 
 function rewireEmotion(config, env) {
-  const babelrc = config.module.rules.find(babelLoader).options;
-  babelrc.plugins = ['emotion/babel'].concat(babelrc.plugins || []);
-
-  return config;
+  return injectBabelPlugin('emotion/babel', config);
 }
 
 module.exports = rewireEmotion;
