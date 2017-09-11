@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import { css, keyframes } from 'emotion';
+import { keyframes } from 'emotion';
 import styled from 'emotion/react';
 
 const spinFrames = keyframes`
@@ -11,19 +11,19 @@ const spinFrames = keyframes`
 const Wrapper = styled.div`
   text-align: center;
 
-  .App-logo {
+  & .App-logo {
     animation: ${spinFrames} infinite 20s linear;
     height: 80px;
   }
 
-  .App-header {
+  & .App-header {
     background-color: #222;
     height: 150px;
     padding: 20px;
     color: white;
   }
 
-  .App-intro {
+  & .App-intro {
     font-size: large;
   }
 `;

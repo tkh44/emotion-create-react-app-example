@@ -1,6 +1,0 @@
-@keyframes animation-spinFrames-w6tfot { from { -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); transform: rotate(0deg); }
-  to { -webkit-transform: rotate(360deg); -ms-transform: rotate(360deg); transform: rotate(360deg); } }
-.css-Wrapper-1bu0tx7 { text-align: center; }
-.css-Wrapper-1bu0tx7 .App-logo { -webkit-animation: var(--css-Wrapper-1bu0tx7-0) infinite 20s linear; animation: var(--css-Wrapper-1bu0tx7-0) infinite 20s linear; height: 80px; }
-.css-Wrapper-1bu0tx7 .App-header { background-color: #222; height: 150px; padding: 20px; color: white; }
-.css-Wrapper-1bu0tx7 .App-intro { font-size: large; }
