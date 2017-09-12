@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import logo from './logo.svg';
-import { keyframes } from 'emotion';
-import styled from 'emotion/react';
+import styled, { keyframes } from 'react-emotion'
 
 const spinFrames = keyframes`
   from { transform: rotate(0deg); }

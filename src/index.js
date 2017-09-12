@@ -1,6 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import { injectGlobal } from 'emotion';
+import { injectGlobal } from 'react-emotion';
 import App from './App';
 import registerServiceWorker from './registerServiceWorker';
 
